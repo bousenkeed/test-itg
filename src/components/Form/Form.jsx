@@ -9,7 +9,7 @@ import { AppContext } from '../../App';
 import styles from './Form.module.scss';
 
 function Form({ scrollContainerRef }) {
-    const [isScrolled, setIsScrolled] = useState(true);
+    const [isScrolled, setIsScrolled] = useState(false);
     const [isModalOpened, setIsModalOpened] = useState(false);
     const { setSidebarOpened } = useContext(AppContext);
 
