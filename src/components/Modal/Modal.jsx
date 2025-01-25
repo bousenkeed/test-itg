@@ -3,7 +3,6 @@ import styles from './Modal.module.scss';
 
 function Modal({ children, isModalOpened, setIsModalOpened }) {
     const contentRef = useRef(null);
-    console.log(isModalOpened);
 
     useEffect(() => {
         const clickOutside = (event) => {

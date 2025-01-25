@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useRef, useState } from 'react';
 
 import Button from '../UI/Button/Button';
 import InputList from '../InputList/InputList';
@@ -9,9 +9,11 @@ import { AppContext } from '../../App';
 import styles from './Form.module.scss';
 
 function Form({ scrollContainerRef }) {
-    const [isScrolled, setIsScrolled] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(true);
     const [isModalOpened, setIsModalOpened] = useState(false);
     const { setSidebarOpened } = useContext(AppContext);
+
+    const resizeRef = useRef(false);
 
     const toggleModal = () => {
         setIsModalOpened((prev) => !prev);
@@ -19,15 +21,20 @@ function Form({ scrollContainerRef }) {
     };
 
     useEffect(() => {
-        const updateScrollState = () => {
-            if (scrollContainerRef.current) {
-                setIsScrolled(scrollContainerRef.current.scrollTop > 0);
-            }
-        };
-
         const handleResize = () => {
             if (window.innerWidth < 991) {
                 setIsScrolled(false);
+                resizeRef.current = false;
+            } else {
+                resizeRef.current = true;
+            }
+        };
+        
+        handleResize()
+
+        const updateScrollState = () => {
+            if (scrollContainerRef.current && resizeRef.current) {
+                setIsScrolled(scrollContainerRef.current.scrollTop > 0);
             }
         };
 
