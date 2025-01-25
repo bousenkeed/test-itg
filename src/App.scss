@@ -1,0 +1,23 @@
+@use './styles/importer' as *;
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    padding-top: $heigth-header-desktop;
+    height: 100vh;
+    overflow-y: auto;
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.content {
+    overflow-y: auto;
+    flex: 1;
+}

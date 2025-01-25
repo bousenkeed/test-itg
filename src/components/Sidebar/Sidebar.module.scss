@@ -1,0 +1,40 @@
+@use '../../styles/importer' as *;
+
+.sidebar {
+    position: relative;
+    height: 100%;
+    display: flex;
+
+    &__panel {
+        display: flex;
+        flex-direction: column;
+        border-right: 1px solid #d5d8dd;
+        background-color: $color-bg;
+        position: relative;
+        z-index: 10;
+
+        @include media(tablet-s) {
+            display: none;
+        }
+    }
+
+    &__panelButton {
+        @include square(56px);
+        @include buttonReset;
+        @include flexCenter;
+
+        @include hover {
+            & svg path {
+                fill: #005999;
+            }
+        }
+
+        @include hover-none {
+            & svg path {
+                fill: #005999;
+            }
+        }
+    }
+}
+
+
