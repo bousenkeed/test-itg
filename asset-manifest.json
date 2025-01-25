@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/test-itg/static/css/main.c9740844.css",
+    "main.js": "/test-itg/static/js/main.9ebc53f2.js",
+    "static/media/montserrat-v29-cyrillic_latin-600.woff": "/test-itg/static/media/montserrat-v29-cyrillic_latin-600.190ce85f9bdf17f9299e.woff",
+    "static/media/montserrat-v29-cyrillic_latin-regular.woff": "/test-itg/static/media/montserrat-v29-cyrillic_latin-regular.cac29deb1da2bb761968.woff",
+    "static/media/open-sans-v40-cyrillic_latin-regular.woff": "/test-itg/static/media/open-sans-v40-cyrillic_latin-regular.a45310b2b5a150a900f5.woff",
+    "static/media/open-sans-v40-cyrillic_latin-600.woff": "/test-itg/static/media/open-sans-v40-cyrillic_latin-600.eb517eb440cc1fddece9.woff",
+    "static/media/montserrat-v29-cyrillic_latin-600.eot": "/test-itg/static/media/montserrat-v29-cyrillic_latin-600.9dcfbed6ae957d543151.eot",
+    "static/media/montserrat-v29-cyrillic_latin-regular.eot": "/test-itg/static/media/montserrat-v29-cyrillic_latin-regular.2ed5f02c157fcc319966.eot",
+    "static/media/open-sans-v40-cyrillic_latin-regular.eot": "/test-itg/static/media/open-sans-v40-cyrillic_latin-regular.1f5347b221c7133ff61a.eot",
+    "static/media/open-sans-v40-cyrillic_latin-600.eot": "/test-itg/static/media/open-sans-v40-cyrillic_latin-600.933f91a0b1bd5461decd.eot",
+    "static/media/montserrat-v29-cyrillic_latin-600.woff2": "/test-itg/static/media/montserrat-v29-cyrillic_latin-600.a8c25b2680603d2d21f2.woff2",
+    "static/media/montserrat-v29-cyrillic_latin-regular.woff2": "/test-itg/static/media/montserrat-v29-cyrillic_latin-regular.0141f0256173a371ccd7.woff2",
+    "static/media/open-sans-v40-cyrillic_latin-regular.woff2": "/test-itg/static/media/open-sans-v40-cyrillic_latin-regular.4d801c4849557582fb7e.woff2",
+    "static/media/open-sans-v40-cyrillic_latin-600.woff2": "/test-itg/static/media/open-sans-v40-cyrillic_latin-600.cdd2489d65771fbb7077.woff2",
+    "index.html": "/test-itg/index.html",
+    "main.c9740844.css.map": "/test-itg/static/css/main.c9740844.css.map",
+    "main.9ebc53f2.js.map": "/test-itg/static/js/main.9ebc53f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9740844.css",
+    "static/js/main.9ebc53f2.js"
+  ]
+}
